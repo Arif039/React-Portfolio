@@ -14,12 +14,12 @@ function Navbar () {
         <div className='w-full flex flex-row justify-end'>
         <div className='font-bold text-2xl'>
             <ul className='flex flex-row py-2'>
-                <li className='px-4 py-2 text-white  bg-violet-500 rounded-full'>A</li>
+                <button className='px-4 py-2 text-white  bg-violet-500 rounded-full'>A</button>
                 <li className='px-4 py-2'>Arif</li>
             </ul>
         </div>
 
-        <div className='hidden md:block w-full place-items-end  text-2xl'>
+        <div className='hidden md:block w-full place-items-end  text-xl'>
                 <ul className=' flex flex-row py-2'>
                     <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>Home</a></li>
                     <li><a href='#' className='block px-4 py-2 text-gray-800 hover:bg-violet-500 hover:text-white'>About</a></li>
