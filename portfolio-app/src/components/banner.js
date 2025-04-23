@@ -4,35 +4,35 @@ import portfolioImage from '../images/portfolio_image-removebg-preview.png';
 export default function Banner () {
 
     return (
-        <div className='w-5/6 m-auto flex flex-row'>
+        <div className='w-5/6 m-auto max-h-screen flex flex-row justify-between flex-wrap mt-20'>
           
             {/* Content */}
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col gap-10 md:w-2/3'>
                 <div>
-                    <h1 className='font-bold text-7xl w-1/2'>Hello I'm Kazi Saiful Anwar </h1>
+                    <h1 className='font-bold text-2xl md:text-7xl'>Hello I'm Kazi Saiful Anwar </h1>
                 </div>
 
                 <div>
-                    <h3 className='text-3xl w-1/2'>I am a fullstack Blockchain Developer based on Bangladesh | Focused on building user-centric solutions across smart contracts, NFTs, and Defi platform </h3>
+                    <h3 className=' text-xl md:text-3xl'>I am a fullstack Blockchain Developer based on Bangladesh | Focused on building user-centric solutions across smart contracts, NFTs, and Defi platform </h3>
                 </div>
                 <div>
-                    <button href= "#" className='text-2xl'>Say Hello!</button>
+                    <button href= "#" className='text-2xl bg-violet-500 p-3 rounded-lg text-white hover:scale-105  transition-transform all delay-100'>Say Hello!</button>
                 </div>
 
-                <div className='flex flex-row gap-10'>
+                <div className='grid grid-cols-2 md:grid-cols-3 gap-9 text-xl '>
 
-                    <div>
-                        <h1>1 Y.</h1>
+                    <div className='bg-pink-200 p-4 text-center  rounded-lg'>
+                        <h1 className='font-bold'>1 Y.</h1>
                         <h3>Experience</h3>
                     </div>
 
-                    <div>
-                        <h1>25+</h1>
+                    <div className='bg-pink-200 p-4 text-center  rounded-lg'>
+                        <h1 className='font-bold'>25+</h1>
                         <h3>Project Completed</h3>
                     </div>
 
-                    <div>
-                        <h1>19</h1>
+                    <div className='bg-pink-200 p-4 text-center  rounded-lg'> 
+                        <h1 className='font-bold'>19</h1>
                         <h3>Happy Client</h3>
                     </div>
 
@@ -42,8 +42,12 @@ export default function Banner () {
             </div>
 
             {/* Image */}
-            <div className='w-2/6 grow'> 
-                <img src={portfolioImage} alt='banner_image' className='max-w-lg max-h-96'></img>
+            <div className='mt-10 md:m-0'> 
+
+                <div>
+                    <img src={portfolioImage} alt='banner_image' className='w-full'></img>
+                </div>
+                
             </div>
         </div>
     )
