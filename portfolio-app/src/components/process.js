@@ -8,7 +8,7 @@ import launchImage from '../images/launch.png';
 export default function Process () {
     return (
 
-        <div className='bg-gray-100 py-20 max-h-screen mt-20'>
+        <div className='bg-gray-100 py-20  mt-20'>
 
 <div className='w-5/6 m-auto mt-20'>
 
@@ -39,7 +39,7 @@ export default function Process () {
 
     <div className=''>
 
-        <div className='bg-white p-10 rounded-lg mt-10'>
+        <div className='bg-white p-10 rounded-lg md:mt-10'>
             <img src={analyzeImage} alt='designImage'  className='mb-4'></img>
             <h2 className='text-2xl font-bold mb-4'>3. Analyze</h2>
             <h3 className='text-[#7f8794] text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
